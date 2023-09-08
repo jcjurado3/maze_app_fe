@@ -1,0 +1,21 @@
+.maze {
+  display: flex;
+  flex-direction: column;
+}
+
+.maze-row {
+  display: flex;
+}
+
+.maze-cell {
+  width: 20px;
+  height: 20px;
+}
+
+.path {
+  background-color: white;
+}
+
+.wall {
+  background-color: black;
+}
